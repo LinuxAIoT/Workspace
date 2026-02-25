@@ -1,0 +1,1 @@
+/usr/bin/g++-5 -fPIC -g -shared -Wl,-soname,libmylib.so -o libmylib.so CMakeFiles/mylib.dir/MyHead.cpp.o 

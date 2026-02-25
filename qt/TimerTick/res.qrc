@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/wallpaper">
+        <file>wallpaper/1.jpg</file>
+        <file>wallpaper/2.jpg</file>
+        <file>wallpaper/3.jpg</file>
+        <file>wallpaper/4.jpg</file>
+        <file>wallpaper/5.jpg</file>
+        <file>wallpaper/6.jpg</file>
+        <file>wallpaper/7.jpg</file>
+        <file>wallpaper/8.jpg</file>
+        <file>wallpaper/9.jpg</file>
+        <file>wallpaper/10.jpg</file>
+    </qresource>
+    <qresource prefix="/style">
+        <file>style.qss</file>
+    </qresource>
+    <qresource prefix="/icon">
+        <file>icon/blue.png</file>
+        <file>icon/green.png</file>
+        <file>icon/red.png</file>
+        <file>icon/yellow.png</file>
+        <file>icon/setting.png</file>
+        <file>icon/timmer.png</file>
+        <file>icon/1.jpg</file>
+        <file>icon/2.jpg</file>
+        <file>icon/3.jpg</file>
+        <file>icon/4.jpg</file>
+        <file>icon/5.jpg</file>
+        <file>icon/6.jpg</file>
+        <file>icon/7.jpg</file>
+        <file>icon/8.jpg</file>
+        <file>icon/9.jpg</file>
+        <file>icon/10.jpg</file>
+        <file>icon/contact.jpg</file>
+        <file>icon/APP_64.png</file>
+        <file>icon/APP_128.png</file>
+        <file>icon/windows.png</file>
+        <file>icon/close.png</file>
+    </qresource>
+</RCC>

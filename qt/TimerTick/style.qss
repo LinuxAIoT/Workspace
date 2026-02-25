@@ -1,0 +1,294 @@
+
+/* 滑槽轨道 */
+QSlider::groove:horizontal#HSliderBackgroundColorRed {
+    height: 4px;  /* 更细的滑槽 */
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 rgba(255,0,0,80),    /* 渐变起始颜色 */
+        stop:1 rgba(255,0,0,255));   /* 渐变结束颜色 */
+    border-radius: 2px;
+}
+
+/* 已滑过区域 */
+QSlider::sub-page:horizontal{
+    background: transparent;  /* 隐藏原填充色 */
+}
+
+/* 未滑过区域 */
+QSlider::add-page:horizontal {
+    background: #E0E0E0;      /* 底层未激活颜色 */
+}
+
+QSlider::handle:horizontal#HSliderBackgroundColorRed {
+    background-image: url(:/icon/icon/red.png); /* 使用图片作为手柄背景 */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 16px;                /* 确保手柄宽度 */
+    height: 16px;               /* 确保手柄高度与宽度相等 */
+    margin: -8px 0;             /* 垂直居中定位（调整以适应手柄大小） */
+    border-radius: 8px;         /* 正圆形（半径为宽度/高度的一半），但实际效果取决于图片内容 */
+    /* 如果图片不是正方形，可能需要额外的裁剪或调整来确保看起来是圆形 */
+    /* 注意：border-radius 对图片的圆形效果有限，需要图片本身是圆形或接近圆形 */
+}
+
+/* 滑槽轨道 */
+QSlider::groove:horizontal#HSliderFontColorRed {
+    height: 4px;  /* 更细的滑槽 */
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 rgba(255,0,0,80),    /* 渐变起始颜色 */
+        stop:1 rgba(255,0,0,255));   /* 渐变结束颜色 */
+    border-radius: 2px;
+}
+
+QSlider::handle:horizontal#HSliderFontColorRed {
+    background-image: url(:/icon/icon/red.png); /* 使用图片作为手柄背景 */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 16px;                /* 确保手柄宽度 */
+    height: 16px;               /* 确保手柄高度与宽度相等 */
+    margin: -8px 0;             /* 垂直居中定位（调整以适应手柄大小） */
+    border-radius: 8px;         /* 正圆形（半径为宽度/高度的一半），但实际效果取决于图片内容 */
+    /* 如果图片不是正方形，可能需要额外的裁剪或调整来确保看起来是圆形 */
+    /* 注意：border-radius 对图片的圆形效果有限，需要图片本身是圆形或接近圆形 */
+}
+
+/* 滑槽轨道 */
+QSlider::groove:horizontal#HSliderBackgroundColorGreen {
+    height: 4px;  /* 更细的滑槽 */
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 rgba(0,255,00,80),    /* 渐变起始颜色 */
+        stop:1 rgba(0,255,0,255));   /* 渐变结束颜色 */
+    border-radius: 2px;
+}
+
+QSlider::handle:horizontal#HSliderBackgroundColorGreen {
+    background-image: url(:/icon/icon/green.png); /* 使用图片作为手柄背景 */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 16px;                /* 确保手柄宽度 */
+    height: 16px;               /* 确保手柄高度与宽度相等 */
+    margin: -8px 0;             /* 垂直居中定位（调整以适应手柄大小） */
+    border-radius: 8px;         /* 正圆形（半径为宽度/高度的一半），但实际效果取决于图片内容 */
+    /* 如果图片不是正方形，可能需要额外的裁剪或调整来确保看起来是圆形 */
+    /* 注意：border-radius 对图片的圆形效果有限，需要图片本身是圆形或接近圆形 */
+}
+
+
+
+/* 滑槽轨道 */
+QSlider::groove:horizontal#HSliderFontColorGreen {
+    height: 4px;  /* 更细的滑槽 */
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 rgba(0,255,00,80),    /* 渐变起始颜色 */
+        stop:1 rgba(0,255,0,255));   /* 渐变结束颜色 */
+    border-radius: 2px;
+}
+
+QSlider::handle:horizontal#HSliderFontColorGreen {
+    background-image: url(:/icon/icon/green.png); /* 使用图片作为手柄背景 */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 16px;                /* 确保手柄宽度 */
+    height: 16px;               /* 确保手柄高度与宽度相等 */
+    margin: -8px 0;             /* 垂直居中定位（调整以适应手柄大小） */
+    border-radius: 8px;         /* 正圆形（半径为宽度/高度的一半），但实际效果取决于图片内容 */
+    /* 如果图片不是正方形，可能需要额外的裁剪或调整来确保看起来是圆形 */
+    /* 注意：border-radius 对图片的圆形效果有限，需要图片本身是圆形或接近圆形 */
+}
+
+
+
+/* 滑槽轨道 */
+QSlider::groove:horizontal#HSliderBackgroundColorBlue {
+    height: 4px;  /* 更细的滑槽 */
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 rgba(0,0,255,80),    /* 渐变起始颜色 */
+        stop:1 rgba(0,0,255,255));   /* 渐变结束颜色 */
+    border-radius: 2px;
+}
+
+QSlider::handle:horizontal#HSliderBackgroundColorBlue {
+    background-image: url(:/icon/icon/blue.png); /* 使用图片作为手柄背景 */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 16px;                /* 确保手柄宽度 */
+    height: 16px;               /* 确保手柄高度与宽度相等 */
+    margin: -8px 0;             /* 垂直居中定位（调整以适应手柄大小） */
+    border-radius: 8px;         /* 正圆形（半径为宽度/高度的一半），但实际效果取决于图片内容 */
+    /* 如果图片不是正方形，可能需要额外的裁剪或调整来确保看起来是圆形 */
+    /* 注意：border-radius 对图片的圆形效果有限，需要图片本身是圆形或接近圆形 */
+}
+
+
+/* 滑槽轨道 */
+QSlider::groove:horizontal#HSliderFontColorBlue {
+    height: 4px;  /* 更细的滑槽 */
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 rgba(0,0,255,80),    /* 渐变起始颜色 */
+        stop:1 rgba(0,0,255,255));   /* 渐变结束颜色 */
+    border-radius: 2px;
+}
+
+QSlider::handle:horizontal#HSliderFontColorBlue {
+    background-image: url(:/icon/icon/blue.png); /* 使用图片作为手柄背景 */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 16px;                /* 确保手柄宽度 */
+    height: 16px;               /* 确保手柄高度与宽度相等 */
+    margin: -8px 0;             /* 垂直居中定位（调整以适应手柄大小） */
+    border-radius: 8px;         /* 正圆形（半径为宽度/高度的一半），但实际效果取决于图片内容 */
+    /* 如果图片不是正方形，可能需要额外的裁剪或调整来确保看起来是圆形 */
+    /* 注意：border-radius 对图片的圆形效果有限，需要图片本身是圆形或接近圆形 */
+}
+
+/* 滑槽轨道 */
+QSlider::groove:horizontal#HSliderBackgroundColorAlpha {
+    height: 4px;  /* 更细的滑槽 */
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 rgba(255,255,0,80),    /* 渐变起始颜色 */
+        stop:1 rgba(255,255,0,255));   /* 渐变结束颜色 */
+    border-radius: 2px;
+}
+
+QSlider::handle:horizontal#HSliderBackgroundColorAlpha {
+    background-image: url(:/icon/icon/yellow.png); /* 使用图片作为手柄背景 */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 16px;                /* 确保手柄宽度 */
+    height: 16px;               /* 确保手柄高度与宽度相等 */
+    margin: -8px 0;             /* 垂直居中定位（调整以适应手柄大小） */
+    border-radius: 8px;         /* 正圆形（半径为宽度/高度的一半），但实际效果取决于图片内容 */
+    /* 如果图片不是正方形，可能需要额外的裁剪或调整来确保看起来是圆形 */
+    /* 注意：border-radius 对图片的圆形效果有限，需要图片本身是圆形或接近圆形 */
+}
+
+/* 滑槽轨道 */
+QSlider::groove:horizontal#HSliderFontColorAlpha {
+    height: 4px;  /* 更细的滑槽 */
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 rgba(255,255,0,80),    /* 渐变起始颜色 */
+        stop:1 rgba(255,255,0,255));   /* 渐变结束颜色 */
+    border-radius: 2px;
+}
+
+QSlider::handle:horizontal#HSliderFontColorAlpha {
+    background-image: url(:/icon/icon/yellow.png); /* 使用图片作为手柄背景 */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 16px;                /* 确保手柄宽度 */
+    height: 16px;               /* 确保手柄高度与宽度相等 */
+    margin: -8px 0;             /* 垂直居中定位（调整以适应手柄大小） */
+    border-radius: 8px;         /* 正圆形（半径为宽度/高度的一半），但实际效果取决于图片内容 */
+    /* 如果图片不是正方形，可能需要额外的裁剪或调整来确保看起来是圆形 */
+    /* 注意：border-radius 对图片的圆形效果有限，需要图片本身是圆形或接近圆形 */
+}
+
+QWidget#verticalWidgetSystemInfo{
+   background-color: rgba(255, 255, 255,255);
+   border-radius: 8px;
+}
+
+QWidget#verticalWidgetSetup{
+   background-color: rgba(255, 255, 255,255);
+   border-radius: 8px;
+}
+
+QWidget#verticalWidgetBgColor{
+   background-color: rgba(255, 255, 255,255);
+   border-radius: 8px;
+}
+
+QWidget#verticalWidgetFontColor{
+   background-color: rgba(255, 255, 255,255);
+   border-radius: 8px;
+}
+
+QWidget#verticalWidgetTheme{
+   background-color: rgba(255, 255, 255,255);
+   border-radius: 8px;
+}
+QWidget#verticaWidgetFont{
+   background-color: rgba(255, 255, 255,255);
+   border-radius: 8px;
+}
+QWidget#verticalWidgetBaseControl{
+   background-color: rgba(255, 255, 255,255);
+   border-radius: 8px;
+}
+QToolButton#toolButtonIndex1{
+    border-radius: 8px;
+}
+
+QToolButton#toolButtonIndex2{
+    border-radius: 8px;
+}
+
+QToolButton#toolButtonIndex3{
+    border-radius: 8px;
+}
+
+QToolButton#toolButtonIndex4{
+    border-radius: 8px;
+}
+
+QToolButton#toolButtonIndex5{
+    border-radius: 8px;
+}
+
+QToolButton#toolButtonIndex6{
+    border-radius: 8px;
+}
+
+QToolButton#toolButtonIndex7{
+    border-radius: 8px;
+}
+
+QToolButton#toolButtonIndex8{
+    border-radius: 8px;
+}
+
+QToolButton#toolButtonIndex9{
+    border-radius: 8px;
+}
+
+QToolButton#toolButtonIndex10{
+    border-radius: 8px;
+}
+
+QToolButton#settings{
+   width:32px;
+   height:32px;
+   border: none;
+}
+
+QFontComboBox {
+    min-width: 0;
+}
+
+QListWidget::item {
+    color:gray;
+    min-height: 30px;
+    height: 30px;
+}
+
+QListWidget::item:selected {
+    color:black;
+    border-top: 2px solid #87CEEB;
+    border-bottom: 2px solid #87CEEB;
+}
+
+QTabWidget{
+    background: transparent;
+}
+
+QWidget#MainVerticalWidget{
+    background-color: rgb(0, 255, 0);
+    border-radius: 8px;
+}
+
+QLabel#dateInfo{
+    color:white;
+}
+
+
+
+

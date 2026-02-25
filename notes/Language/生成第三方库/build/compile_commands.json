@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/mrzhao/Desktop/Untitled Folder/build",
+  "command": "/usr/bin/g++-5 -Dmylib_EXPORTS  -g -fPIC -o CMakeFiles/mylib.dir/MyHead.cpp.o -c \"/home/mrzhao/Desktop/Untitled Folder/MyHead.cpp\"",
+  "file": "/home/mrzhao/Desktop/Untitled Folder/MyHead.cpp"
+},
+{
+  "directory": "/home/mrzhao/Desktop/Untitled Folder/build",
+  "command": "/usr/bin/g++-5   -g -o CMakeFiles/test.dir/main.cpp.o -c \"/home/mrzhao/Desktop/Untitled Folder/main.cpp\"",
+  "file": "/home/mrzhao/Desktop/Untitled Folder/main.cpp"
+}
+]
