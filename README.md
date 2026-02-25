@@ -1,4 +1,9 @@
 # 1、Workspace
+![GitHub Repo stars](https://img.shields.io/github/stars/LinuxAIoT/Workspace?style=for-the-badge&logo=github)
+![GitHub forks](https://img.shields.io/github/forks/LinuxAIoT/Workspace?style=for-the-badge&logo=github)
+![GitHub license](https://img.shields.io/github/license/LinuxAIoT/Workspace?style=for-the-badge)
+![GitHub release](https://img.shields.io/github/v/release/LinuxAIoT/Workspace?style=for-the-badge)
+
 This is a note about my work and learning.
 # 2、git 账户配置
 ```
